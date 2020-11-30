@@ -9,6 +9,7 @@ ShaderToy version: [Gerstner Waves](https://www.shadertoy.com/view/WdyBzz)
 * [1986 Article "A Simple Model Of Ocean Waves" Written by Fournier](http://users.encs.concordia.ca/~grogono/Graphics/waves-1.pdf) - basically about gerstner waves
 * [partial C++ Adaptation of Tessendorf Paper](https://www.scratchapixel.com/lessons/procedural-generation-virtual-worlds/simulating-odean-waves/simulating-surface-ocean)
 * [Nvidia GPU Gems, Gerstner Waves](https://developer.nvidia.com/gpugems/gpugems/part-i-natural-effects/chapter-1-effective-water-simulation-physical-models)
+* [Assassins Creed](https://www.fxguide.com/fxfeatured/assassins-creed-iii-the-tech-behind-or-beneath-the-action/)
 
 #### Videos
 * [Fourier Transform concept 3blue1brown](https://www.youtube.com/watch?v=spUNpyF58BY&list=PLJPAgezdQHRH8PKECjIxSL-CBmB8k-2nR&index=2)
