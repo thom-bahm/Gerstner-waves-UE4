@@ -1,6 +1,6 @@
 # World2World_UE4
 Currently just a project to create realistic waves.
-* Important Reminder:**Remember that the BLEND of the landscape is what matters, not every single angle you look at it; Foliage and objects will make all that better**
+* Important Reminder: **The BLEND of the landscape is what matters, not every single angle you look at it; Foliage and objects will make all that better**
 
 ShaderToy version (In Progress): [Gerstner Waves](https://www.shadertoy.com/view/WdyBzz)
 ## Sources / Information
