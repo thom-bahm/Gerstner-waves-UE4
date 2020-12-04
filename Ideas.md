@@ -1,5 +1,6 @@
 # Place to think about what to do and how/if I should to do it.
 
+**(BS)** = Brainstorm / unreliabale and likely to change
 ## Game Ideas:
 ### Infinite ocean adventure game
 * If I can get tesselation of ocean down efficiently and infinite ocean seems plausible potentially create an infinite ocean / procedural island game that could also make use of super cool procedural moons orbiting (Back story could be that stuff got destroyed on earth because something knocked us out of orbit and sent us on a fast slingshot or something, which is the reason for random moons and stuff passing by / orbiting earth. Could even pass saturn and stuff and have some cool moments like that if there was any story involved). 
@@ -19,9 +20,13 @@ Ideally it would have an atmosphere and have many parameters to adjust appearanc
 * If moon shapes up nicely and doesn't take ridiculous amount of time it could be cool to have a visible tidal effect if that makes any physical sense (also the orbit would have to be mad quick for it to be easily noticeable)
 
 ### Water stuff:
-* Implement super cheap water-types (different waves/ foam for Ocean/pond/lake) by taking the point at the middle
+* **(BS)** Implement super cheap water-types (different waves/ foam for Ocean/pond/lake) by taking the point at the middle
 of the plane (or multiple points) and casting out 7 rays going from 0 -> 45 -> 90 -> 135... And if it's open water
 (not closed in), its ocean, if points are within a specific range it's lake otherwise pond, etc.
 * Implement Beaufort scale based on distance from shore (Mention in ACIII article), Probably gonna want to implement FFT waves and foam, reflect/refraction first.
-* Calculate wave direction based on shoreline vertices so that the direction is believable and actually dynamic along the waves.
+* **(BS)** Calculate wave direction based on shoreline vertices so that the direction is believable and actually dynamic along the waves.
 * Figure out tesselation for obvious performance reasons if I intend to make very large or infinte ocean.
+* **(BS)** Create lod system based on distance from shore that determines opacity, Depth tint and whether or not/how much to use fake SSS, reflection, translucency, and whatever else. there would only be 2-3 lods, shoreline, medium water, and deepwater - medium water is probably optional, if there's a convincing way to very smoothly transition from 
+Shoreline/Shallow->Deepwater lods I wouldn't need it. 
+* Make foam gather more right at the shoreline and then have little to no foam in shallow, followed by lots of foam in deep water.
+* **probably just gonna finish Gerstner Waves and follow along with Tessendorf paper and then see where I'm at before doing any of this**
