@@ -1,4 +1,4 @@
-# Place to think about how to do things / if I should do things
+# Place to think about what to do and how/if I should to do it.
 
 ## Game Ideas:
 ### Infinite ocean adventure game
