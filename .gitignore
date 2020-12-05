@@ -132,3 +132,9 @@ World2World/Intermediate/ProjectFiles/World2World.vcxproj.user
 World2World/Source/World2World/SimpleSine.cpp
 World2World/Source/World2World/SimpleSine.h
 World2World/Content/MSPresets/MSAssets.db
+*.dmp
+*.runtime-xml
+World2World/Intermediate/Build/Win64/UE4Editor/Inc/World2World/Moon.generated.h
+World2World/Intermediate/Build/Win64/UE4Editor/Inc/World2World/Moon.gen.cpp
+World2World/Intermediate/Build/Win64/UE4Editor/Development/World2World/Moon.gen.cpp.txt
+World2World/Intermediate/Build/Win64/UE4Editor/Development/World2World/Moon.cpp.txt

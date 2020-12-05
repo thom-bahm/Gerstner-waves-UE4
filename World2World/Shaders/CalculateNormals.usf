@@ -1,4 +1,6 @@
 #pragma once
+#include "GerstnerWave.usf"
+
 //Calculates Normals For Gerstner Waves
 
 float Wi = (2/WaveLength);
@@ -15,21 +17,16 @@ float BinormalX = (Qi * pow(Dir3.x, 2) * Wa * S);
 float BinormalY = (Qi * Dir3.x * Dir3.y * Wa * S);
 float BinormalZ = (Dir3.x * Wa * C);
 
-float3 BinormalOut = float3(BinormalX, BinormalY, BinormalZ);
+float3 Binormal = float3(BinormalX, BinormalY, BinormalZ);
 
 //Tangents
 float TangentX = (Qi * Dir3.x * Dir3.y * Wa * S);
 float TangentY = (Qi * pow(Dir3.y, 2) * Wa * S);
 float TangentZ = (Dir3.y * Wa * C);
 
-float3 TangentOut = float3(TangentX, TangentY, TangentZ);
+float3 Tangent = float3(TangentX, TangentY, TangentZ);
 
-//Normals
-float NormalX = (Dir3.x * Wa * C);
-float NormalY = (Dir3.y * Wa * C);
-float NormalZ = (Qi * Wa * S);
+float3 BinormalFinal;
+float3 TangentFinal;
 
-float3 NormalOut = float3(NormalX, NormalY, NormalZ);
-
-return NormalOut;
-//return cross(BinormalOut, TangentOut);
+return normalize(cross(Binormal, Tangent));
