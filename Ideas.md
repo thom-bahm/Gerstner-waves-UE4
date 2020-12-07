@@ -1,4 +1,4 @@
-# Place to think about what to do and how/if I should to do it.
+# Place to think about what to do and how/if I should do it.
 
 **(BS)** = Brainstorm / unreliabale and likely to change
 ## Game Ideas:
@@ -10,6 +10,19 @@ having cool story-driven storms that throw a wrench in plans could make it a lit
 * Maybe the starting point would be a really perfected island/ landscape created in WC, then from there on out it's just infinite and procedural. 
 * Which engine to do this? 
 This would be pretty hard especially since I generally dislike how ue4's custom shader and mesh system works. I feel like unity would be much easier but I don't want to have to learn a new editor and also language. Could make sense though, I'll look into the possibility. Definitely not going to OpenGL, far too much time if I ever want to finish something, even if I find it more fun.
+
+### Zombie Game #1
+* I've always liked the fps dying light type stuff, an interesting game idea could be to have a character who has amnesia / ends up in the woods with no memory (or memory of pre-apocalypse times), maybe in a hospital gown or whatever. Point of the game will be a mix of discovering the past but more importantly fighting through zombies to get back to a major living-people city ( once there the game ends, I don't wanna have to model all those buildings and streets.)
+* The real decision in core gameplay would inolve pace, horror aspect, action aspect and adventure aspect:
+- I could make it slow paced, more focused on discovering the past / whats going on - this would be a horror / adventure.
+- I Could also make it fast paced focused on bashing zombies and running from them - this would be action.
+- I would like to find a sweet spot of some to minimal horror mixed with some adventure, and a lot of action. Quests in this game would probably all contribute to the story as I don't want to model any real characters for side quests - if I had a basic crafting and inventory system, side quests could just be notes detailing the location of some resources. This would be nice but I don't want it to be based on inventory and collecting stuff, so I probably won't do that. Having some crafting would be good though, just to have some exterior motives to engage and explore. Maybe you start off the game with a small dagger on the first zombie you encounter or something.
+* Names could be "Dead or forgotten", "The Path Back Home", "The Dead Are Not Forgotten", "The Dead Are Sleeping"(If horror), "Hit Or Run", "Bash and Dash"(if super-action). I personally like the first 2 most. 
+
+* Don't know how difficult it will be to setup a satisfying bashing mechanic and animation for all that; also creating the zombies will be a large challenge for me. Not sure how realistic this is if I don't spend some bread. I feel confident that I could deal with environment looks and world creation with decent optimization, as well as the core health / death / damage systems. Animation and modelling are gonna be the hardest, I'll have to relearn blender and actually figure out a good workflow to easily create multiple zombies without spending an insane amount of time modelling and rigging, etc. I would ideally want gory execution animations too which I feel like could be realistic if modelling and animating doesn't take forever.
+* Another main challenge for this would be creating urban environments in any sense, I would prefer a way to only have a nature environment and some log cabins, trailers, etc. Just unrealistic to envision creating a city landscape thats detailed and playable by myself. I'm confident creating a few building variations would not be a huge task though.
+
+* Story idea: Make the backstory that you are on a different planet than earth and some virus on this planet got all the people infected, and that could be the big story reveal in the game.
 
 ## Specific Ideas/ Mechanics:
 ### Moon/ Procedural whatever:
