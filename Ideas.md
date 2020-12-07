@@ -25,6 +25,49 @@ This would be pretty hard especially since I generally dislike how ue4's custom 
 
 * Story idea: Make the backstory that you are on a different planet than earth and some virus on this planet got all the people infected, and that could be the big story reveal in the game.
 
+
+
+
+
+
+
+## Specific Ideas/ Mechanics:
+### Animation, Combat, Characters, etc.
+* For zombie game, have it so when you kill zombie and there are no zombies within x distance of you, there's an execution animation, and blood spatters on the screen, causing the character to wipe it off their "eyes". Would be a cool final kill I think, also mixing this with some other final executions would work nicely, such as: 
+- Knocking zombie to their knees and bashing their head
+- stab in eye, then kick to the ground
+- left jaw, right jaw, bash
+- If cuttin off head is easy enough then that would be cool with either a 360 spin + cut off head, or just normal head chop.
+- A really cool but likely hard animation would be to carry/charge a zombie into a tree / surface, then bash them with whatever blunt weapon you're holding, or just repeated fist bashes; Kind of like that GOW4 animation where you pick up a draughr and run with them and throw them on the ground / at something.
+
+* Also for zombie game, zombies should have different intense eye color for that extra effect - torn clothes, fast limp or whatever.
+
+
+
+### Moon/ Procedural whatever:
+* ProceduralMeshComponent moon that orbits landscape and has some neat effect on the WPO/normal distortion - 
+Ideally it would have an atmosphere and have many parameters to adjust appearance combined w/ cool shader effect. 
+* Create orbit for Moon shape by creating a radius from the center of the landscape and having it stay at that radius while the root component transforms around it
+* Cool effect could be to have cracks that glow/ pulsate in the moon as if it were to explode, I could do that with noise porbably; Also having an atmosphere would be very nice if it doesn't take forever (don't think it will, should be pretty easy shader to research)
+* If moon shapes up nicely and doesn't take ridiculous amount of time it could be cool to have a visible tidal effect if that makes any physical sense (also the orbit would have to be mad quick for it to be easily noticeable)
+
+
+
+### Water stuff:
+* **(BS)** Implement super cheap water-types (different waves/ foam for Ocean/pond/lake) by taking the point at the middle
+of the plane (or multiple points) and casting out 7 rays going from 0 -> 45 -> 90 -> 135... And if it's open water
+(not closed in), its ocean, if points are within a specific range it's lake otherwise pond, etc.
+* Implement Beaufort scale based on distance from shore (Mention in ACIII article), Probably gonna want to implement FFT waves and foam, reflect/refraction first.
+* **(BS)** Calculate wave direction based on shoreline vertices so that the direction is believable and actually dynamic along the waves.
+* Figure out tesselation for obvious performance reasons if I intend to make very large or infinte ocean.
+* **(BS)** Create lod system based on distance from shore that determines opacity, Depth tint and whether or not/how much to use fake SSS, reflection, translucency, and whatever else. there would only be 2-3 lods, shoreline, medium water, and deepwater - medium water is probably optional, if there's a convincing way to very smoothly transition from 
+Shoreline/Shallow->Deepwater lods I wouldn't need it. 
+* Make foam gather more right at the shoreline and then have little to no foam in shallow, followed by lots of foam in deep water.
+* **probably just gonna finish Gerstner Waves and follow along with Tessendorf paper and then see where I'm at before doing any of this**
+
+
+
+
 ## Scene Ideas:
 ### Rocky Forest - Done
 * Tons of vegetation and some rocks in a forest like autumn-ish environment, with a large tree as the focal point.
@@ -41,30 +84,5 @@ This would be pretty hard especially since I generally dislike how ue4's custom 
 * focal points on ground could include knocked over cups and maybe just one singular burning candle; A cool cinematic shot would be panning towards the candle with the throne in the focal point of the background and once the camera stops the candle goes out. This would mix well with blood everywhere, also I wouldn't need bodies there for it to make sense because they would be walkers. I like this idea.
 * Camera could be placed in a hallway entering the throne room in an slow, eery, quiet feel - it would smoothly pan to a single candle standing up surrounded by kncked over plates, silverware daggers, whatever; and once it got very close, the candle would go out and the screen would turn black.
 
-## Specific Ideas/ Mechanics:
-### Animation, Combat, etc.
-* For zombie game, have it so when you kill zombie and there are no zombies within x distance of you, there's an execution animation, and blood spatters on the screen, causing the character to wipe it off their "eyes". Would be a cool final kill I think, also mixing this with some other final executions would work nicely, such as: 
-- Knocking zombie to their knees and bashing their head
-- stab in eye, then kick to the ground
-- left jaw, right jaw, bash
-- If cuttin off head is easy enough then that would be cool with either a 360 spin + cut off head, or just normal head chop.
-- A really cool but likely hard animation would be to carry/charge a zombie into a tree / surface, then bash them with whatever blunt weapon you're holding, or just repeated fist bashes; Kind of like that GOW4 animation where you pick up a draughr and run with them and throw them on the ground / at something.
 
-### Moon/ Procedural whatever:
-* ProceduralMeshComponent moon that orbits landscape and has some neat effect on the WPO/normal distortion - 
-Ideally it would have an atmosphere and have many parameters to adjust appearance combined w/ cool shader effect. 
-* Create orbit for Moon shape by creating a radius from the center of the landscape and having it stay at that radius while the root component transforms around it
-* Cool effect could be to have cracks that glow/ pulsate in the moon as if it were to explode, I could do that with noise porbably; Also having an atmosphere would be very nice if it doesn't take forever (don't think it will, should be pretty easy shader to research)
-* If moon shapes up nicely and doesn't take ridiculous amount of time it could be cool to have a visible tidal effect if that makes any physical sense (also the orbit would have to be mad quick for it to be easily noticeable)
 
-### Water stuff:
-* **(BS)** Implement super cheap water-types (different waves/ foam for Ocean/pond/lake) by taking the point at the middle
-of the plane (or multiple points) and casting out 7 rays going from 0 -> 45 -> 90 -> 135... And if it's open water
-(not closed in), its ocean, if points are within a specific range it's lake otherwise pond, etc.
-* Implement Beaufort scale based on distance from shore (Mention in ACIII article), Probably gonna want to implement FFT waves and foam, reflect/refraction first.
-* **(BS)** Calculate wave direction based on shoreline vertices so that the direction is believable and actually dynamic along the waves.
-* Figure out tesselation for obvious performance reasons if I intend to make very large or infinte ocean.
-* **(BS)** Create lod system based on distance from shore that determines opacity, Depth tint and whether or not/how much to use fake SSS, reflection, translucency, and whatever else. there would only be 2-3 lods, shoreline, medium water, and deepwater - medium water is probably optional, if there's a convincing way to very smoothly transition from 
-Shoreline/Shallow->Deepwater lods I wouldn't need it. 
-* Make foam gather more right at the shoreline and then have little to no foam in shallow, followed by lots of foam in deep water.
-* **probably just gonna finish Gerstner Waves and follow along with Tessendorf paper and then see where I'm at before doing any of this**
