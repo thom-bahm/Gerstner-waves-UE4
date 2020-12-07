@@ -17,6 +17,7 @@ This would be pretty hard especially since I generally dislike how ue4's custom 
 - I could make it slow paced, more focused on discovering the past / whats going on - this would be a horror / adventure.
 - I Could also make it fast paced focused on bashing zombies and running from them - this would be action.
 - I would like to find a sweet spot of some to minimal horror mixed with some adventure, and a lot of action. Quests in this game would probably all contribute to the story as I don't want to model any real characters for side quests - if I had a basic crafting and inventory system, side quests could just be notes detailing the location of some resources. This would be nice but I don't want it to be based on inventory and collecting stuff, so I probably won't do that. Having some crafting would be good though, just to have some exterior motives to engage and explore. Maybe you start off the game with a small dagger on the first zombie you encounter or something.
+* I think this idea would make for a good 'hardcore' game, where there aren't any health or damage numbers shown to player (or just for the player there owuld be), and you just have to know how it works. I think this would contribute to the feel of the game in a positive way.
 * Names could be "Dead or forgotten", "The Path Back Home", "The Dead Are Not Forgotten", "The Dead Are Sleeping"(If horror), "Hit Or Run", "Bash and Dash"(if super-action). I personally like the first 2 most. 
 
 * Don't know how difficult it will be to setup a satisfying bashing mechanic and animation for all that; also creating the zombies will be a large challenge for me. Not sure how realistic this is if I don't spend some bread. I feel confident that I could deal with environment looks and world creation with decent optimization, as well as the core health / death / damage systems. Animation and modelling are gonna be the hardest, I'll have to relearn blender and actually figure out a good workflow to easily create multiple zombies without spending an insane amount of time modelling and rigging, etc. I would ideally want gory execution animations too which I feel like could be realistic if modelling and animating doesn't take forever.
@@ -41,6 +42,14 @@ This would be pretty hard especially since I generally dislike how ue4's custom 
 * Camera could be placed in a hallway entering the throne room in an slow, eery, quiet feel - it would smoothly pan to a single candle standing up surrounded by kncked over plates, silverware daggers, whatever; and once it got very close, the candle would go out and the screen would turn black.
 
 ## Specific Ideas/ Mechanics:
+### Animation, Combat, etc.
+* For zombie game, have it so when you kill zombie and there are no zombies within x distance of you, there's an execution animation, and blood spatters on the screen, causing the character to wipe it off their "eyes". Would be a cool final kill I think, also mixing this with some other final executions would work nicely, such as: 
+- Knocking zombie to their knees and bashing their head
+- stab in eye, then kick to the ground
+- left jaw, right jaw, bash
+- If cuttin off head is easy enough then that would be cool with either a 360 spin + cut off head, or just normal head chop.
+- A really cool but likely hard animation would be to carry/charge a zombie into a tree / surface, then bash them with whatever blunt weapon you're holding, or just repeated fist bashes; Kind of like that GOW4 animation where you pick up a draughr and run with them and throw them on the ground / at something.
+
 ### Moon/ Procedural whatever:
 * ProceduralMeshComponent moon that orbits landscape and has some neat effect on the WPO/normal distortion - 
 Ideally it would have an atmosphere and have many parameters to adjust appearance combined w/ cool shader effect. 
