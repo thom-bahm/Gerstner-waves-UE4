@@ -24,6 +24,17 @@ This would be pretty hard especially since I generally dislike how ue4's custom 
 
 * Story idea: Make the backstory that you are on a different planet than earth and some virus on this planet got all the people infected, and that could be the big story reveal in the game.
 
+## Scene Ideas:
+### Rocky Forest - Done
+* Tons of vegetation and some rocks in a forest like autumn-ish environment, with a large tree as the focal point.
+
+### Winterfell-inspired Throne room
+* Mix of the Iron Throne Room and winterfell meeting hall / where the starks congregate in later seasons.
+* Kind of a "Winter has come" vibe: Dark, abandoned / ramsacked vibe; Stuff littered across the ground, snow inside, all that. Thinking about naming it "If The Night King Won" or "Winter Has Come". Maybe gonna be blood on the ground. Hole / torn down section of upper wall where light will come in as well as snow, shedding some light on the throne - could be trees and stuff to create cool shadows. 
+
+* focal points on ground could include knocked over cups and maybe just one singular burning candle; A cool cinematic shot would be panning towards the candle with the throne in the focal point of the background and once the camera stops the candle goes out. This would mix well with blood everywhere, also I wouldn't need bodies there for it to make sense because they would be walkers. I like this idea.
+* Camera could be placed in a hallway entering the throne room in an slow, eery, quiet feel - it would smoothly pan to a single candle standing up surrounded by kncked over plates, silverware daggers, whatever; and once it got very close, the candle would go out and the screen would turn black.
+
 ## Specific Ideas/ Mechanics:
 ### Moon/ Procedural whatever:
 * ProceduralMeshComponent moon that orbits landscape and has some neat effect on the WPO/normal distortion - 
