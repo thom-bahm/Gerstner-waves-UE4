@@ -3,7 +3,7 @@ Currently just a project to create realistic waves.
 
 ShaderToy version (In Progress): [Gerstner Waves](https://www.shadertoy.com/view/WdyBzz)
 
-UE4 Version: Unfortunately hard drive with the actual project and screesnhtos got corrupted. May try to reapply this to UE5 at some point.
+UE4 Version: Unfortunately hard drive with the actual project and screenshots got corrupted again. May try to reapply this to UE5 at some point.
 
 Reference Images: [Water](https://github.com/thom-bahm/Stuff-etc/tree/master/GameDev/Ref/Waves)
 ## Sources / Information
