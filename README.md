@@ -1,7 +1,7 @@
 Currently just a project to create realistic waves.
 * Important Reminder: **The BLEND of the landscape is what matters, not every single angle you look at it; Foliage and objects will make all that better. Worry about the 1.shape, 2.Practicallity, 3.Textures, 4.How they go together.     Nothing else until you're in ue4 applying foliage and thinking up the scene.**
 
-ShaderToy version (In Progress): [Gerstner Waves](https://www.shadertoy.com/view/WdyBzz)
+ShaderToy version (Very early stages, In Progress): [Gerstner Waves](https://www.shadertoy.com/view/WdyBzz)
 
 UE4 Version: Unfortunately hard drive with the actual project and screenshots got corrupted again. May try to reapply this to UE5 at some point.
 
