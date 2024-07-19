@@ -1,6 +1,6 @@
 A quick project to create semi-realistic waves in UE4 using the Gerstner Wave technique.
 
-UE4 Version: Unfortunately hard drive with the screenshots got corrupted again. May try to reapply this to UE5 at some point.
+UE4 Version: Unfortunately don't have many screenshots from this one, however [some wireframe shots](https://github.com/thom-bahm/Gerstner-waves-UE4/edit/main/README.md#screenshots) are still around
 
 ## Sources / Information
 
@@ -20,3 +20,9 @@ UE4 Version: Unfortunately hard drive with the screenshots got corrupted again. 
 * [Mathematical Ocean For Buoyancy, Blueprint in ue4](https://www.youtube.com/watch?v=spUNpyF58BY&list=PLJPAgezdQHRH8PKECjIxSL-CBmB8k-2nR&index=2)
 * [Goal video, what I'd ideall be able to acheive (Real-time FFT Ocean rendering done in OpenGL w/ AMD Readon R7 360, which is 3 times slower than gtx 1070)](https://www.youtube.com/watch?v=CeJCNmI-B7s&list=PLJPAgezdQHREseDfQ5LaUd5Sn3ONhlXEL&index=1)
 * [Another goal video](https://www.youtube.com/watch?v=OQ3D0Q5BlOs&list=PLJPAgezdQHREseDfQ5LaUd5Sn3ONhlXEL&index=2)
+
+
+#### Screenshots
+
+![Wireframe top view](https://github.com/thom-bahm/Gerstner-waves-UE4/blob/main/wireframe_0.png)
+![Wireframe side view](https://github.com/thom-bahm/Gerstner-waves-UE4/blob/main/wireframe_1.png)
