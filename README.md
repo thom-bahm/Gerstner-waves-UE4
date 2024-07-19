@@ -1,4 +1,4 @@
-A quick project to create semi-realistic waves in UE4 using the Gerstner Wave technique, using HLSL.
+A quick project to create semi-realistic waves in UE4 using the Gerstner Wave technique, using usf files (HLSL-based unreal engine shader language).
 
 UE4 Version: Unfortunately don't have many screenshots from this one, however [some wireframe shots](https://github.com/thom-bahm/Gerstner-waves-UE4/blob/main/README.md#screenshots) are still around
 
