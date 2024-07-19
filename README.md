@@ -1,6 +1,6 @@
 A quick project to create semi-realistic waves in UE4 using the Gerstner Wave technique.
 
-UE4 Version: Unfortunately don't have many screenshots from this one, however [some wireframe shots](https://github.com/thom-bahm/Gerstner-waves-UE4/edit/main/README.md#screenshots) are still around
+UE4 Version: Unfortunately don't have many screenshots from this one, however [some wireframe shots](https://github.com/thom-bahm/Gerstner-waves-UE4/blob/main/README.md#screenshots) are still around
 
 ## Sources / Information
 
