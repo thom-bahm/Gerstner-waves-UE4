@@ -24,5 +24,6 @@ UE4 Version: Unfortunately don't have many screenshots from this one, however [s
 
 #### Screenshots
 
+Here's some screenshots of the wireframe on a restricted plane with the shaders applied as a material.
 ![Wireframe top view](https://github.com/thom-bahm/Gerstner-waves-UE4/blob/main/wireframe_0.png)
 ![Wireframe side view](https://github.com/thom-bahm/Gerstner-waves-UE4/blob/main/wireframe_1.png)
